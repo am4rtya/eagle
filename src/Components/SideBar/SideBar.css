@@ -1,0 +1,31 @@
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 60px; 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .sidebar-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-tab:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar-tab.active {
+    background-color: #ccc;
+    font-weight: bold;
+  }
+  
